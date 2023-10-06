@@ -5,7 +5,10 @@ function App() {
 
   return (
     <div>
-      <ListGroup items={items} heading="Cities"></ListGroup>
+      <ListGroup items={items} heading="Cities" />
+      <br />
+      <br />
+      <ListGroup items={["Cake", "Pie", "Pancakes"]} heading="food" />
     </div>
   );
 }
